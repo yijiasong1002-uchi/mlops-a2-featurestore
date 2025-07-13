@@ -1,0 +1,4 @@
+matplotlib==3.10.1
+matplotlib-inline @ file:///Users/builder/cbouss/perseverance-python-buildout/croot/matplotlib-inline_1699242375920/work
+pandas==1.5.3
+scikit-learn==1.6.1

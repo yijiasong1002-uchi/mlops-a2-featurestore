@@ -1,0 +1,104 @@
+{
+  "v1_hyperparam1": {
+    "hyperparams": {
+      "n_estimators": 100,
+      "max_depth": 10,
+      "min_samples_split": 5,
+      "min_samples_leaf": 2,
+      "random_state": 42
+    },
+    "feature_version": "V1",
+    "metrics": {
+      "mse": 4454.831988367772,
+      "mae": 50.985385642189414,
+      "r2": 0.5152146667778852,
+      "rmse": 66.74452777844617
+    },
+    "carbon_emissions": 9.681614180277466e-07,
+    "feature_importance": {
+      "age": 0.07538451233944203,
+      "height": 0.07239744599108737,
+      "weight": 0.8522180416694706
+    }
+  },
+  "v1_hyperparam2": {
+    "hyperparams": {
+      "n_estimators": 200,
+      "max_depth": 20,
+      "min_samples_split": 2,
+      "min_samples_leaf": 1,
+      "random_state": 42
+    },
+    "feature_version": "V1",
+    "metrics": {
+      "mse": 5409.191233957127,
+      "mae": 56.71471159685107,
+      "r2": 0.41135904077566676,
+      "rmse": 73.54720412059949
+    },
+    "carbon_emissions": 3.4089412291272375e-06,
+    "feature_importance": {
+      "age": 0.16391893202805405,
+      "height": 0.13018029393708566,
+      "weight": 0.7059007740348602
+    }
+  },
+  "v2_hyperparam1": {
+    "hyperparams": {
+      "n_estimators": 100,
+      "max_depth": 10,
+      "min_samples_split": 5,
+      "min_samples_leaf": 2,
+      "random_state": 42
+    },
+    "feature_version": "V2",
+    "metrics": {
+      "mse": 1431.8624353907696,
+      "mae": 28.130326518443077,
+      "r2": 0.8441813496711748,
+      "rmse": 37.83995818431582
+    },
+    "carbon_emissions": 4.402161792892728e-06,
+    "feature_importance": {
+      "age": 0.004824644081903591,
+      "height": 0.004059710836229425,
+      "weight": 0.01328840527192181,
+      "candj": 0.005383276196408089,
+      "snatch": 0.005120074560887092,
+      "backsq": 0.06100551045246523,
+      "experience_years": 0.0018773776756467486,
+      "bmi": 0.004902454264422637,
+      "strength_score": 0.8943468866238071,
+      "strength_to_weight_ratio": 0.005191660036308272
+    }
+  },
+  "v2_hyperparam2": {
+    "hyperparams": {
+      "n_estimators": 200,
+      "max_depth": 20,
+      "min_samples_split": 2,
+      "min_samples_leaf": 1,
+      "random_state": 42
+    },
+    "feature_version": "V2",
+    "metrics": {
+      "mse": 1494.964877119655,
+      "mae": 28.8817841353844,
+      "r2": 0.8373143930001836,
+      "rmse": 38.66477566364061
+    },
+    "carbon_emissions": 2.844138795300639e-05,
+    "feature_importance": {
+      "age": 0.01761511424426383,
+      "height": 0.010207930278995612,
+      "weight": 0.020744610625111085,
+      "candj": 0.013897277301707613,
+      "snatch": 0.013926511596417317,
+      "backsq": 0.06009704470161176,
+      "experience_years": 0.007617500755841373,
+      "bmi": 0.018762437304835847,
+      "strength_score": 0.8197256275372807,
+      "strength_to_weight_ratio": 0.01740594565393492
+    }
+  }
+}
