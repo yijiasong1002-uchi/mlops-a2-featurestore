@@ -23,7 +23,5 @@
 - Total carbon emissions: 0.000037 kg CO2
 - Average per experiment: 0.000009 kg CO2
 
-## Recommendations
-- V2 feature version (including more features and derived features) significantly improves model performance
-- Increasing the number of trees (n_estimators) can improve performance, but it will also increase training time and carbon emissions
-- In practical applications, it is necessary to balance model performance and environmental impact
+## Conclusion
+I noticed that V2 feature version (including more features and derived features) significantly improves model performance. Also, increasing the number of trees (n_estimators) can improve performance, but it will also increase training time and carbon emissions. Therefore, in practical applications, it is necessary for us to balance model performance and environmental impact.
